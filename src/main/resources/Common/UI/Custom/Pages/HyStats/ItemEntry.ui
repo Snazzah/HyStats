@@ -1,0 +1,21 @@
+Group {
+    LayoutMode: Left;
+    Anchor: (Height: 52, Bottom: 8);
+
+    Group #IconHolder {
+      Anchor: (Width: 32, Height: 32, Right: 12, Vertical: 0);
+    }
+
+    Group #Text {
+        LayoutMode: Top;
+        Anchor: (Vertical: 0);
+        Label #ItemName {
+            Style: (FontSize: 18, TextColor: #c8d3df);
+            Text: "Item";
+        }
+
+        Label #ItemDetails {
+            Style: (FontSize: 14, TextColor: #96a9be);
+        }
+    }
+}

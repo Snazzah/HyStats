@@ -1,0 +1,18 @@
+{
+  "Group": "Snazzah",
+  "Name": "HyStats",
+  "Version": "1.0.0",
+  "Description": "A plugin to track player statistics, kills, and other things.",
+  "Main": "com.snazzah.hystats.HyStats",
+  "Authors": [
+    {
+      "Name": "Snazzah",
+      "Url": "https://snazzah.com"
+    }
+  ],
+  "IncludesAssetPack": true,
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Hytale:EntityModule": "*"
+  }
+}

@@ -1,0 +1,61 @@
+$C = "../../Common.ui";
+
+$C.@PageOverlay {
+
+  $C.@Container {
+    Anchor: (Width: 1000, Height: 750);
+
+    #Title {
+      Group {
+        $C.@Title {
+          Text: "Statistics";
+        }
+      }
+    }
+
+    #Content {
+      LayoutMode: Top;
+
+      Group #TabBar {
+        LayoutMode: Center;
+        Anchor: (Height: 44, Bottom: 12);
+
+        $C.@SmallSecondaryTextButton #GeneralTab {
+          Text: "General";
+          Anchor: (Width: 120, Right: 8);
+        }
+
+        $C.@SmallSecondaryTextButton #ItemsTab {
+          Text: "Items";
+          Anchor: (Width: 120, Right: 8);
+        }
+
+        $C.@SmallSecondaryTextButton #MobsTab {
+          Text: "Mobs";
+          Anchor: (Width: 120);
+        }
+      }
+
+      Group #StatsContent {
+        LayoutMode: Top;
+        FlexWeight: 1;
+
+        Group #HyStatsList {
+          LayoutMode: TopScrolling;
+          ScrollbarStyle: $C.@DefaultScrollbarStyle;
+          FlexWeight: 1;
+          Padding: (Right: 12, Bottom: 8);
+        }
+
+        Label #EmptyLabel {
+          Style: (FontSize: 18, TextColor: #96a9be, HorizontalAlignment: Center);
+          Text: "No statistics to display";
+          Anchor: (Top: 40, Horizontal: 0);
+          Visible: false;
+        }
+      }
+    }
+  }
+}
+
+$C.@BackButton {}

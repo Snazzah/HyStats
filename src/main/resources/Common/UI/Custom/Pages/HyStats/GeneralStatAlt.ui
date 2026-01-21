@@ -1,0 +1,14 @@
+$C = "../../Common.ui";
+
+Group {
+    LayoutMode: Left;
+    Anchor: (Height: 32, Bottom: 6);
+    Label #StatName {
+       Style: (FontSize: 18, TextColor: #8ba2bb);
+       Anchor: (Width: 700, Right: 10);
+    }
+    Label #StatValue {
+       Style: (FontSize: 18, TextColor: #b6c0cb, HorizontalAlignment: End);
+       Anchor: (Width: 220);
+    }
+}

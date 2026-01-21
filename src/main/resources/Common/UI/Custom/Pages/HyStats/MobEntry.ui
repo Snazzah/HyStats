@@ -1,0 +1,13 @@
+$C = "../../Common.ui";
+
+Group {
+    LayoutMode: Top;
+    Anchor: (Height: 40, Bottom: 10);
+    Label #MobName {
+        Style: (FontSize: 18, TextColor: #c8d3df, RenderBold: true);
+    }
+    Label #MobText {
+        Style: (FontSize: 14, TextColor: #96a9be);
+        Anchor: (Left: 10);
+    }
+}
