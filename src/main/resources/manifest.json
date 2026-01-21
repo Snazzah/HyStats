@@ -10,6 +10,7 @@
       "Url": "https://snazzah.com"
     }
   ],
+  "Website": "https://www.curseforge.com/hytale/mods/hystats",
   "IncludesAssetPack": true,
   "ServerVersion": "*",
   "Dependencies": {
