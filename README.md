@@ -1,6 +1,6 @@
 <div align="center">
 
-![](https://get.snaz.in/AfQHrm8.png);
+![](https://get.snaz.in/AfQHrm8.png)
 
 # HyStats
 A mod/plugin that tracks player statistics, inspired by Minecraft's statistics system.
